@@ -1,0 +1,6 @@
+.video__frames{
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  transform: translate(0, 50px);
+}
