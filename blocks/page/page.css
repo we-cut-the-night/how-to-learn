@@ -5,31 +5,3 @@
   max-width: 1600px;
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-
-.section-title{
-  margin: 0 auto;
-  width: 60%;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
-  text-align: center;
-  z-index: 1;
-}
-
-.section-subtitle{
-  margin: 20px auto 0;
-  width: 60%;
-  line-height: 34px;
-  font-size: 24px;
-  text-align: center;
-  font-weight: normal;
-  z-index: 1;
-}
-
-.section-title_theme_dark{
-  color: #fff;
-}
-
-.section-subtitle_theme_dark{
-  color: #fff;
-}

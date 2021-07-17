@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
@@ -67,8 +66,8 @@
         <h2 class="section-title">Видео на TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" allowfullscreen></iframe>
-          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
         </div>
       </section>
 
@@ -134,7 +133,7 @@
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
@@ -145,7 +144,7 @@
       </section>
 
       <section class="kaufman">
-        <img class="kaufman__triangle rotation" src="./images/kaufman-triangle.svg" alt="Синий треугольник">
+        <div class="kaufman__triangle rotation"></div>
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
         <ul class="table table_theme_dark">
@@ -195,20 +194,28 @@
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <div class="resources__logo-zone">
-          <a href="https://arzamas.academy" target="_blank">
-            <img src="./images/resources-arzamas.svg" alt="Арзамас" class="resources__logo">
-          </a>
-          <a href="https://nplus1.ru" target="_blank">
-            <img src="./images/resources-n1.svg" alt="N+1" class="resources__logo">
-          </a>
-          <a href="https://strelka.com/ru" target="_blank">
-            <img src="./images/resources-strelka.svg" alt="Стрелка" class="resources__logo">
-          </a>
-          <a href="https://polka.academy" target="_blank">
-            <img src="./images/resources-polka.svg" alt="Полка" class="resources__logo">
-          </a>
-        </div>
+        <ul class="resources__logo-zone">
+          <li>
+            <a href="https://arzamas.academy" target="_blank">
+              <img src="./images/resources-arzamas.svg" alt="Арзамас" class="resources__logo">
+            </a>
+          </li>
+          <li>
+            <a href="https://nplus1.ru" target="_blank">
+              <img src="./images/resources-n1.svg" alt="N+1" class="resources__logo">
+            </a>
+          </li>
+          <li>
+            <a href="https://strelka.com/ru" target="_blank">
+              <img src="./images/resources-strelka.svg" alt="Стрелка" class="resources__logo">
+            </a>
+          </li>
+          <li>
+            <a href="https://polka.academy" target="_blank">
+              <img src="./images/resources-polka.svg" alt="Полка" class="resources__logo">
+            </a>
+          </li>
+        </ul>
       </section>
 
     </main>
